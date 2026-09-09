@@ -172,7 +172,7 @@ RESEND_FROM_EMAIL=             # ex: "noreply@seudominio.com.br"
 CRON_SECRET=                   # gere um aleatorio pra autenticar requests do cron
 
 # Codex (se aplicavel)
-ANTHROPIC_API_KEY=
+OPENAI_API_KEY=
 
 # App
 NEXT_PUBLIC_APP_URL=           # ex: https://seuapp.com.br

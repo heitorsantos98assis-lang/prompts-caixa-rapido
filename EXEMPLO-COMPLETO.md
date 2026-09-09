@@ -6,13 +6,13 @@
 
 **Andrea**, 34 anos, contadora ha 12 anos, sao paulo. Tem escritorio proprio com 2 funcionarias. Atende ~80 clientes PJ, sendo 60 SIMPLES NACIONAL e 20 LP.
 
-**Skill tecnica:** baixa. Sabe usar Excel avancado e ferramentas de contador (Domínio, Onvio). Nunca programou. Ja conhece Claude.ai e usa pra escrever email pra clientes.
+**Skill tecnica:** baixa. Sabe usar Excel avancado e ferramentas de contador (Domínio, Onvio). Nunca programou. Ja conhece Codex.ai e usa pra escrever email pra clientes.
 
 **Quanto tempo:** 8h/semana (2h por dia, antes do escritorio abrir).
 
 ## Dia 1-3 — Nicho + Validacao
 
-Andrea roda `01-NICHO.md` no Claude.ai. Apos a entrevista, sai com 3 candidatos:
+Andrea roda `01-NICHO.md` no Codex.ai. Apos a entrevista, sai com 3 candidatos:
 
 ```
 Nicho 1: contadores autonomos com 50-200 clientes PJ MEI/SIMPLES
@@ -100,7 +100,7 @@ Andrea roda `05-LANDING.md`. Saida:
 **Hero (titulo):** "Lembrete de DAS-MEI no automatico, pra todos os seus clientes."  
 **Subtitulo:** "Voce cadastra. A gente lembra. Cliente paga. Voce nao perde mais cliente por esquecer."
 
-**Codigo Next.js + Tailwind + shadcn:** Claude entrega 7 componentes (Hero, Dor, Solucao, Para quem e, Preco, FAQ, CTA) prontos.
+**Codigo Next.js + Tailwind + shadcn:** Codex entrega 7 componentes (Hero, Dor, Solucao, Para quem e, Preco, FAQ, CTA) prontos.
 
 Andrea publica no Vercel. Dominio: pontofiscal.com.br (R$ 40 de domain).
 
@@ -108,20 +108,20 @@ Andrea publica no Vercel. Dominio: pontofiscal.com.br (R$ 40 de domain).
 
 ## Dia 12-25 — Build
 
-Andrea abre Claude Code. Roda `06-BUILD.md` em 3 partes (A = setup, B = auth + feature core, C = pagamento — esse e o `07-PAGAMENTO.md`).
+Andrea abre Codex. Roda `06-BUILD.md` em 3 partes (A = setup, B = auth + feature core, C = pagamento — esse e o `07-PAGAMENTO.md`).
 
 **Andrea, contadora sem experiencia tecnica, conseguiu fazer porque:**
 
-- Claude Code criou TODOS os arquivos
+- Codex criou TODOS os arquivos
 - Ela seguiu 1 etapa por dia (2h/dia)
-- Quando travou em algo (configurar webhook do Stripe, criar tabela do Supabase), ela perguntou pro Claude e ele explicou em portugues simples
-- Toda etapa que terminava: `git commit` (Claude Code sugeria a mensagem)
+- Quando travou em algo (configurar webhook do Stripe, criar tabela do Supabase), ela perguntou pro Codex e ele explicou em portugues simples
+- Toda etapa que terminava: `git commit` (Codex sugeria a mensagem)
 
 Linha do tempo dia a dia:
 
 | Dia | O que fez | Tempo |
 |---|---|---|
-| 12 | Criou conta Supabase + projeto + tabelas (com SQL pronto do Claude) | 1h |
+| 12 | Criou conta Supabase + projeto + tabelas (com SQL pronto do Codex) | 1h |
 | 13 | Criou conta Stripe + produto + preco | 1h |
 | 14 | Setup Next.js + variaveis de ambiente + Supabase client | 2h |
 | 15 | Auth (signup/login/logout) | 2h |
@@ -135,7 +135,7 @@ Linha do tempo dia a dia:
 | 24 | Customer Portal + pagina /billing | 1h |
 | 25 | Smoke test fim a fim com cartao de teste | 2h |
 
-**Total: ~24 horas em 14 dias.** Custo: R$ 0 alem do que ja paga (Claude Pro).
+**Total: ~24 horas em 14 dias.** Custo: R$ 0 alem do que ja paga (Codex Pro).
 
 ## Dia 26 — Primeiro cliente real
 
@@ -207,7 +207,7 @@ Sean Ellis: 43%
 
 **Diagnostico:** PMF consolidado, churn baixo, crescimento forte, LTV/CAC alto.
 
-**Recomendacao Claude:** ESCALAR.
+**Recomendacao Codex:** ESCALAR.
 
 **Plano 90 dias:**
 - Aumentar marketing digital (R$ 800/mes em LinkedIn + Meta)

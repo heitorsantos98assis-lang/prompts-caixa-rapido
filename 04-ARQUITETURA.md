@@ -4,7 +4,7 @@ Stack, modelo de dados, ordem de construcao. Tudo decidido antes de escrever 1 l
 
 ## Por que decidir antes
 
-Voce vai usar Claude Code pra construir. Claude e bom mas sem direcao escolhe stack diferente em cada arquivo. Resultado: caos.
+Voce vai usar Codex pra construir. Codex e bom mas sem direcao escolhe stack diferente em cada arquivo. Resultado: caos.
 
 Esse prompt **resolve isso uma vez** e dali em diante voce so executa.
 
@@ -12,13 +12,13 @@ Esse prompt **resolve isso uma vez** e dali em diante voce so executa.
 
 | Camada | Default | Por que |
 |---|---|---|
-| Frontend + Backend | Next.js 15 (App Router) + TypeScript | unifica fullstack; deploy facil; Claude conhece muito bem |
+| Frontend + Backend | Next.js 15 (App Router) + TypeScript | unifica fullstack; deploy facil; Codex conhece muito bem |
 | Hospedagem | Vercel | gratis ate dar trafego; 0 setup |
 | Banco | Supabase (Postgres) | gratis ate 500MB; ja vem com auth, storage, RLS |
 | Auth | Supabase Auth | gratis ilimitado; email/senha + magic link + OAuth |
 | Pagamento | Stripe | melhor doc do mundo; recorrencia BRL com PIX desde 2024 |
 | Email | Resend | gratis 3k/mes; integracao trivial |
-| IA (se precisar) | Claude API | melhor opcao, pago por uso |
+| IA (se precisar) | Codex API | melhor opcao, pago por uso |
 | CSS | Tailwind v4 + shadcn/ui | velocidade absurda |
 | Validacao | Zod | obrigatorio pra inputs |
 | Forms | React Hook Form + Zod | padrao de mercado |
@@ -49,7 +49,7 @@ Cole o conteudo de `mvp.md`:
 - Stripe (recorrencia BRL com PIX)
 - Resend (email)
 - Vercel Cron Jobs (se precisar)
-- Claude API (se IA fizer parte do produto)
+- Codex API (se IA fizer parte do produto)
 
 # O que voce me entrega
 
@@ -171,8 +171,8 @@ RESEND_FROM_EMAIL=             # ex: "noreply@seudominio.com.br"
 # Cron (Vercel)
 CRON_SECRET=                   # gere um aleatorio pra autenticar requests do cron
 
-# Claude (se aplicavel)
-ANTHROPIC_API_KEY=
+# Codex (se aplicavel)
+OPENAI_API_KEY=
 
 # App
 NEXT_PUBLIC_APP_URL=           # ex: https://seuapp.com.br

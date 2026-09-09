@@ -1,6 +1,6 @@
 # 06 — Build do MVP
 
-Construir o produto com Claude Code, etapa por etapa, com codigo starter pronto.
+Construir o produto com Codex, etapa por etapa, com codigo starter pronto.
 
 ## Antes de comecar
 
@@ -29,11 +29,11 @@ Smoke test fim a fim
 
 ## PROMPT A — Setup do projeto
 
-Roda no Claude Code numa pasta vazia.
+Roda no Codex numa pasta vazia.
 
 --- COMECO PROMPT A ---
 
-Voce e um senior fullstack engineer trabalhando comigo no Claude Code. Vamos iniciar o projeto. Sua missao agora: **setup limpo, sem firula**.
+Voce e um senior fullstack engineer trabalhando comigo no Codex. Vamos iniciar o projeto. Sua missao agora: **setup limpo, sem firula**.
 
 # Contexto da arquitetura
 
@@ -348,9 +348,9 @@ Implemente o fluxo descrito em `mvp.md` passo a passo:
 
 1. **`git commit` a cada coisa que funciona** — mesmo coisa pequena. Cria pontos de retorno.
 2. **Roda local depois de cada feature** — nao codifica 3 features e testa tudo junto
-3. **Quando o Claude propor mudanca grande, peca pra dividir** — "Faca em etapas, espera minha confirmacao entre elas"
+3. **Quando o Codex propor mudanca grande, peca pra dividir** — "Faca em etapas, espera minha confirmacao entre elas"
 4. **Use `git diff` antes de aceitar** — especialmente em `package.json`, `middleware.ts`, configs
-5. **Se travou em algo, pergunta pro Claude antes de gastar 1h sozinho** — economiza 80% do tempo
+5. **Se travou em algo, pergunta pro Codex antes de gastar 1h sozinho** — economiza 80% do tempo
 
 ### Ritmo recomendado (modo realista, 2h/dia)
 
@@ -382,7 +382,7 @@ Dia 14 (sexta): Deploy producao + dominio + ultimo smoke test
 | Sinal | O que fazer |
 |---|---|
 | Mais de 3h no mesmo erro | Para. Le erro com calma. Considera reverter o ultimo passo |
-| "Funciona, mas nao sei por que" | Para. Pede o Claude pra explicar antes de seguir |
+| "Funciona, mas nao sei por que" | Para. Pede o Codex pra explicar antes de seguir |
 | Mudanca enorme em arquivo nao pedido | Rejeita. Pergunta por que. Pede menor |
 | Voce ta querendo "mais 1 feature" | Para. Olha `mvp.md`. Se nao ta no TEM QUE TER, nao constroi |
 
@@ -394,7 +394,7 @@ Antes de gastar tempo:
 # Veja o que mudou:
 git diff
 
-# Se a mudanca foi do Claude e quebrou:
+# Se a mudanca foi do Codex e quebrou:
 git checkout {arquivo}  # reverte 1 arquivo
 # OU
 git reset --hard HEAD   # reverte tudo (cuidado, perde mudancas nao commitadas!)

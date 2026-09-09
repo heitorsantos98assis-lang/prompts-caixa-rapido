@@ -55,7 +55,7 @@ Cole o conteudo de `nicho.md` e `validacao.md`:
 # Restricoes inegociaveis
 
 - O MVP precisa estar pronto em **no maximo 14 dias de codificacao** (cabivel em 2-3h/dia ou 6-8h/dia)
-- Quem vai construir: eu + Claude Code (sou {iniciante / intermediario / experiente} em programacao)
+- Quem vai construir: eu + Codex (sou {iniciante / intermediario / experiente} em programacao)
 - O MVP precisa **cobrar do cliente desde o primeiro dia** (logo, precisa de auth + pagamento)
 - Sem mobile app — so web
 - Pode usar API externa paga so se for absolutamente essencial pra entregar a promessa nuclear
@@ -163,7 +163,7 @@ Antes de seguir pra arquitetura, confirma:
 - [ ] Promessa nuclear cabe em 1 frase com verbo
 - [ ] Fluxo do usuario cabe em ate 8 passos
 - [ ] Inclui pagamento desde o dia 1
-- [ ] Da pra construir em 14 dias com meu nivel de programacao + Claude Code
+- [ ] Da pra construir em 14 dias com meu nivel de programacao + Codex
 - [ ] Eu seria capaz de explicar o produto pra um cliente em 30 segundos
 
 Se algum nao bateu, mostre o que precisa cortar mais.

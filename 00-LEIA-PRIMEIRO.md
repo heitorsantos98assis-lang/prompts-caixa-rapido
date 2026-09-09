@@ -112,7 +112,7 @@ Cliente paga pelo **resultado**, nao pelas horas que voce gastou. Se voce gastou
 - Email (Resend free 3k): R$ 0
 - Stripe: R$ 0 (so cobra com transacao)
 - Dominio: R$ 40/ano
-- Claude (pra construir): R$ 110/mes (Pro)
+- Codex (pra construir): R$ 110/mes (Pro)
 
 **Total: R$ 110/mes ate ter cliente.**
 
@@ -120,7 +120,7 @@ Cliente paga pelo **resultado**, nao pelas horas que voce gastou. Se voce gastou
 - Vercel Pro (se trafego justifica): R$ 110/mes
 - Supabase Pro: R$ 130/mes
 - Stripe taxa: ~3.99% + R$ 0,39 por transacao (R$ 40)
-- Claude: R$ 110-300/mes (com cliente vem mais uso)
+- Codex: R$ 110-300/mes (com cliente vem mais uso)
 - Email Resend: ainda gratis ou R$ 110/mes
 - Dominio + outros: R$ 50/mes
 

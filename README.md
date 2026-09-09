@@ -18,7 +18,7 @@ Esse pacote e diferente:
 - **Cirurgico:** passo a passo com saidas concretas
 - **B2B de nicho ate R$ 100k MRR:** o segmento real onde voce consegue caixa rapido
 - **Numeros reais:** custo, timeline, criterios de decisao com threshold
-- **Tecnico no necessario:** codigo starter funcionando + Claude Code montando o resto
+- **Tecnico no necessario:** codigo starter funcionando + Codex montando o resto
 
 ## Quem deve ler
 
@@ -73,7 +73,7 @@ Pra deixar simples e barato:
 - **Banco + Auth:** Supabase (gratis ate 50k linhas e 50k MAU)
 - **Pagamento:** Stripe (recorrencia BRL, com PIX) ou Mercado Pago
 - **Email transacional:** Resend (gratis ate 3k/mes)
-- **IA:** Claude API (paga por uso)
+- **IA:** Codex API (paga por uso)
 
 **Custo total mensal antes do primeiro cliente:** R$ 0 a R$ 50.
 
